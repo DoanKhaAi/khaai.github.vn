@@ -1,0 +1,32 @@
+@media(max-width:740px){
+    .header{
+        overflow: hidden;
+    }
+    #nav {
+        display: block;
+    }
+    #nav li{
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav li a{
+        display: block;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: rgb(124, 112, 170);
+    }
+    #nav .subnav a{
+        padding: 0 50px;
+    }
+    .header .mobile-menu{
+        display: block;
+    }
+    .content .illustration-img,
+    .content .contact{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
